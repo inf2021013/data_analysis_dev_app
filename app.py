@@ -3,8 +3,7 @@ from libraries import *
 # App title
 st.title("2D Data Visualization - Machine learning application")
 tabs = st.sidebar.radio("Tabs", ["DataFrame","2D Visualization","machine learning","info"])
-st.write("## upload a csv DataFrame (features + labels):")
-uploaded_file = st.file_uploader("Upload a tab-separated csv file", type="csv")
+uploaded_file = st.file_uploader("Upload a comma-separated csv file", type="csv")
 
 
 # Check if a file has been uploaded

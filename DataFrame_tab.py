@@ -5,7 +5,7 @@ def DataFrame_tab(data):
     # The data frame split into 2 tables
     # 1. samples X features (SXF)
     # 2. labels (F+1) 
-    st.title("DataFrame, samples X features + labels")
+    st.write("## DataFrame, samples X features + labels")
     
     # Extract the labels by popping the last column
     labels = data.iloc[:, -1]
