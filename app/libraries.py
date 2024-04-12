@@ -4,5 +4,13 @@ import numpy as np
 from sklearn.model_selection import train_test_split # train - test
 from sklearn.linear_model import LogisticRegression  # model
 from sklearn.metrics import accuracy_score           # accuracy score
-from machine_learning_tab import machine_learning_tab
-from info_tab import info_tab
+
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
+import seaborn as sns
+# import the 3 tabs
+from Machine_Learning_tab import Machine_Learning_tab
+from Info_tab import Info_tab
+from Visualization_tab import Visualization_tab
+from DataFrame_tab import DataFrame_tab
