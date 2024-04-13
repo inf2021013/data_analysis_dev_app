@@ -29,7 +29,7 @@ The python virtual environment activation command is different for every system:
 #### Ubuntu debian command
 For linux / debian terminal:
 ```
-    source ./venv/bin/activate
+    source ./virtual_environment_name/bin/activate
 ```
 ### Windows 10/11 command
 For windows command prompt:
