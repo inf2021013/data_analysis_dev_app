@@ -1,10 +1,9 @@
 from libraries import * 
 
-# App title
+# Application title
 st.title("2D Data Visualization - Machine learning application")
 tabs = st.sidebar.radio("Tabs", ["DataFrame","2D Visualization","machine learning","info"])
 uploaded_file = st.file_uploader("Upload a comma-separated csv file", type="csv")
-
 
 # Check if a file has been uploaded
 if uploaded_file is not None:
