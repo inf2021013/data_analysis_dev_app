@@ -30,6 +30,7 @@ def exploratory_data_analysis(data):
     plt.legend(title='Column')
     st.pyplot()
 
+    # Density
     plt.figure(figsize=(10, 6))
     sns.kdeplot(data=melted_data, x='value', hue='Column', shade=True)
     plt.title('Density Plot of all columns')
@@ -44,7 +45,7 @@ def exploratory_data_analysis(data):
     plt.title('Boxplot of all columns')
     plt.xlabel('Column')
     plt.ylabel('Value')
-    plt.xticks(rotation=45)  # Περιστροφή των ετικετών του x για καλύτερη αναγνώριση
+    plt.xticks(rotation=45)  
     st.pyplot()
 
     
