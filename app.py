@@ -11,11 +11,13 @@ if uploaded_file is not None:
     # Read the uploaded file as a DataFrame using pandas
     data = pd.read_csv(uploaded_file, sep=',', header=0)
     
+    # get dataset name
+    dataset_name = uploaded_file.name.replace('.csv','').replace('_',' ')
     # Display content based on selected tab (dataframe)
     if tabs == "DataFrame":
         DataFrame_tab(data)
     elif tabs == "2D Visualization":
-        Visualization_tab(data)
+        Visualization_tab(data,dataset_name)
     elif tabs == "machine learning":
         Machine_Learning_tab(data)
     elif tabs == "info":
