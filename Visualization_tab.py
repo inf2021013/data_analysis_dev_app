@@ -59,7 +59,7 @@ def exploratory_data_analysis(data,dataset_name):
     
     # Histogram
     plt.figure(figsize=(10, 6))
-    sns.histplot(data=melted_data, x='value', hue='Column', kde=True, multiple='stack')
+    sns.histplot(data=melted_data, x='value', hue=dataset_name, kde=True, multiple='stack')
     plt.title('Histogram of all columns')
     plt.xlabel('Value')
     plt.ylabel('Frequency')
@@ -68,7 +68,7 @@ def exploratory_data_analysis(data,dataset_name):
 
     # Density
     plt.figure(figsize=(10, 6))
-    sns.kdeplot(data=melted_data, x='value', hue='Column', shade=True)
+    sns.kdeplot(data=melted_data, x='value', hue=dataset_name, shade=True)
     plt.title('Density Plot of all columns')
     plt.xlabel('Value')
     plt.ylabel('Density')
@@ -77,7 +77,7 @@ def exploratory_data_analysis(data,dataset_name):
 
     # Boxplot
     plt.figure(figsize=(10, 6))
-    sns.boxplot(data=melted_data, x='Column', y='value')
+    sns.boxplot(data=melted_data, x=dataset_name, y='value')
     plt.title('Boxplot of all columns')
     plt.xlabel(dataset_name)
     plt.ylabel('Value')
