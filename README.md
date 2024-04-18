@@ -1,4 +1,4 @@
-# How to run
+# How to Run
 To start this web streamlt application, first you will have to git clone this github repository into your local computer.
 
 ## clone repository
@@ -8,6 +8,7 @@ To achieve this you will have to either download it using the `git clone` comman
 ```
 or can download it manually here:
 
+![image](https://github.com/TechTeam-inf2021/data_analysis_dev_app/assets/166173503/5f746267-8e2d-4b94-9b9c-b142dc71029e)
 
 
 
