@@ -4,7 +4,7 @@ To start this web streamlt application, first you will have to git clone this gi
 ## clone repository
 To achieve this you will have to either download it using the `git clone` command below:
 ```
-    git clone https://github.com/TechTeam-inf2021/data_analysis_dev_app
+    git clone https://github.com/TechTeam-inf2021/data_analysis_dev_app.git
 ```
 or can download it manually here:
 
