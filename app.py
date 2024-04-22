@@ -4,7 +4,8 @@ from libraries import *
 st.title("2D Data Visualization - Machine learning application")
 tabs = st.sidebar.radio("Tabs", ["DataFrame","2D Visualization","machine learning","info"])
 uploaded_file = st.file_uploader("Upload a comma-separated csv file", type="csv")
-
+if tabs == "info":
+    Info_tab()
 # Check if a file has been uploaded
 if uploaded_file is not None:
 
@@ -20,6 +21,5 @@ if uploaded_file is not None:
         Visualization_tab(data,dataset_name)
     elif tabs == "machine learning":
         Machine_Learning_tab(data)
-    elif tabs == "info":
-        Info_tab()
+    
         
