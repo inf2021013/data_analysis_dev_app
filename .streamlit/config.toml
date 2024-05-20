@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#FF00FF" # Magenta for primary elements
+backgroundColor = "#002B36" # Dark teal for the main background
+secondaryBackgroundColor = "#2C3E50" # Dark slate blue for the sidebar
+accentColor = "#FFDD00" # Bright yellow for accents and highlights
+textColor = "#F8F9FA" # Very light grey for good readability
+secondaryTextColor = "#B0BEC5" # Light grey for secondary text
+borderColor = "#3B6978" # Soft teal for borders and outlines
+font = "sans serif"

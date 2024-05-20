@@ -15,18 +15,17 @@ def DataFrame_tab(data):
             The Dataframe stays as it is:
                 1. samples X features (SXF)
     '''
-    DataFrame_type = st.selectbox(
-    'Whats the type of your DataFrame?',
-    ('Labels', 'no Labels')
-    )
-    if DataFrame_type == 'Labels':
+    st.write("### Choose the type of your Dataframe:")
+    st.write("#### (labels or no labels)")
+    labels,no_labels = st.tabs(['Labels', 'no Labels'])
+    with labels:
         Labels(data)
-    elif DataFrame_type == 'no Labels': 
+    with no_labels: 
         no_Labels(data)
     
 def no_Labels(data):
     # no Labels title
-    st.write("# Dataset with No Labels (SXF)")
+    st.write("## Dataset with No Labels (SXF)")
 
     
     # Gets and writes the shape of the dataset
@@ -34,8 +33,8 @@ def no_Labels(data):
     
     # buttons to show - hide the dataFrame
     ## if no labels is selected then it shows only the features because it has no labels
-    show_data = st.button('show table',key='show_button')
-    hide_data = st.button('hide table',key='hide_button')
+    show_data = st.button('show table',key='show_button_no_labels')
+    hide_data = st.button('hide table',key='hide_button_no_labels')
     if show_data == True and hide_data == False:
         st.write("## Samples X Features",data)
     elif show_data == False and hide_data == True:
@@ -43,7 +42,7 @@ def no_Labels(data):
     
 def Labels(data):
     # Labels title
-    st.write("# Dataset with Labels (SXF) and (F+1)")
+    st.write("## Dataset with Labels (SXF) and (F+1)")
 
     
     # Extract the labels by popping the last column
@@ -59,8 +58,8 @@ def Labels(data):
     
     # buttons to show - hide the dataFrame
     ## if labels is selected then it shows the features and the labels seperetely
-    show_data = st.button('show tables',key='show_button')
-    hide_data = st.button('hide tables',key='hide_button')
+    show_data = st.button('show tables',key='show_button_labels')
+    hide_data = st.button('hide tables',key='hide_button_labels')
     if show_data == True and hide_data == False:
         st.write("## Samples X Features",features)
         st.write("## Labels",labels)

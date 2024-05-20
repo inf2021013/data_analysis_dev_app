@@ -25,13 +25,13 @@ def Info_tab():
 #### Labels επιλογή
 Αν επιλέξει την επιλογή labels διαχωρίζει το Dataset του δύο κομμάτια, σε `Samples X Features` και `Labels` παίρνοντας την τελευταία στήλη του Dataset:
 
+![dataframe_labels](https://github.com/inf2021013/test/assets/166173503/b6abd089-b0bd-43bf-b307-4f77eb2f5705)
 
-![dataframe_labels](https://github.com/PanMour/image_1/assets/115315282/4eebce57-0759-4816-a8b8-3e23f2ae4c61)
 
 #### Νo labels επιλογή
 Αν επιλέξει την επιλογή no labels τότε εμφανίζει ολόκληρο το Dataset, σε `Samples X Features`.
 
-![dataframe_no_labels](https://github.com/PanMour/image_1/assets/115315282/84048f00-cb49-4805-b880-85ed1b8a1667)
+![dataframe_no_labels](https://github.com/inf2021013/test/assets/166173503/2b1a60cd-356c-4382-9659-c9b63ba5fd4b)
 
 ### Visualization tab:
 
