@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF00FF" # Magenta
+backgroundColor = "#002B36" # Dark teal
+secondaryBackgroundColor = "#2C3E50" # Dark slate blue
+textColor = "#F8F9FA" # Very light grey
+font = "sans serif"
