@@ -11,12 +11,12 @@ or can download it manually here:
 ![image](https://github.com/TechTeam-inf2021/data_analysis_dev_app/assets/166173503/5f746267-8e2d-4b94-9b9c-b142dc71029e)
 
 
-## Run the streamlit app using docker:
-### Install Docker Desktop:
-#### Windows 10/11 and macOS
+# Run the streamlit app using docker:
+## Install Docker Desktop:
+### Windows 10/11 and macOS
 If you haven't installed Docker Desktop, you can download it from the [Docker website](https://docs.docker.com/desktop/install/windows-install/).
 
-##### Start Docker Desktop app
+### Start Docker Desktop app
 First you will need to open the Docker Desktop app 
 
 ![image](https://github.com/inf2021013/data_analysis_dev_app/assets/166173503/58b906f0-57ae-4089-aea8-e46da4316a52)
@@ -25,19 +25,19 @@ and ensure it runs.
 
 ![image](https://github.com/inf2021013/data_analysis_dev_app/assets/166173503/a2dc4740-1700-45e6-9f6b-3f70435d9c81)
 
-#### Linux
-##### Start Docker Daemon:
+## Linux
+### Start Docker Daemon:
 Open a terminal and run:
 ```
     sudo systemctl start docker
 ```
-##### Enable Docker to Start at Boot (Optional):
+### Enable Docker to Start at Boot (Optional):
 
 To ensure Docker starts on boot, run:
 ```
     sudo systemctl enable docker
 ```
-##### Verify Docker Daemon it runs
+### Verify Docker Daemon it runs
 You can verify it runs by typing in your terminal:
 ```
 docker info
