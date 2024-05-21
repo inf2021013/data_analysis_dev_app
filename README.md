@@ -22,7 +22,8 @@ First you will need to open the Docker Desktop app
 ![image](https://github.com/inf2021013/data_analysis_dev_app/assets/166173503/58b906f0-57ae-4089-aea8-e46da4316a52)
 
 and ensure it runs. 
-![image](https://github.com/inf2021013/data_analysis_dev_app/assets/166173503/4a25d1b6-5a74-43e0-8b3a-18444ed9cd20)
+
+![image](https://github.com/inf2021013/data_analysis_dev_app/assets/166173503/a2dc4740-1700-45e6-9f6b-3f70435d9c81)
 
 #### Linux
 ##### Start Docker Daemon:
