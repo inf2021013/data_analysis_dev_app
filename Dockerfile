@@ -1,6 +1,7 @@
-FROM python:3.11.8-slim-bullseye
+FROM python:3.10.11-slim-bullseye
 WORKDIR /app
-COPY . .
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 EXPOSE 8501
-RUN bash script.sh
-CMD [ "bash","-c","streamlit run ./app.py"]
+COPY . .
+CMD ["streamlit", "run", "app.py"]
