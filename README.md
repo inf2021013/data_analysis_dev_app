@@ -18,6 +18,7 @@ If you haven't installed Docker Desktop, you can download it from the [Docker we
 
 ##### Start Docker Desktop app
 First you will need to open the Docker Desktop app 
+
 ![image](https://github.com/inf2021013/data_analysis_dev_app/assets/166173503/58b906f0-57ae-4089-aea8-e46da4316a52)
 
 and ensure it runs. 
