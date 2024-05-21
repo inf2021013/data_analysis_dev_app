@@ -37,7 +37,7 @@ To ensure Docker starts on boot, run:
 ```
     sudo systemctl enable docker
 ```
-### Verify Docker Daemon it runs
+## Verify Docker Daemon it runs
 You can verify it runs by typing in your terminal:
 ```
 docker info
