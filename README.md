@@ -1,3 +1,10 @@
+# Team TechTeam-inf2021013
+## Members:
+  - Νικόλας Αναγνωστόπουλος - inf2021013
+  - Παναγιώτης Μουρελάτος - inf2021147
+  - Αχιλλέας Ζερβός - inf2021055
+        
+
 # How to Run
 To start this web streamlt application, first you will have to git clone this github repository into your local computer.
 
